@@ -1,5 +1,3 @@
-#include <bits/stdc++.h>
-using namespace std;
 
 template<class c> auto try_out(c x) -> decltype(cerr << x, 0);
 char try_out(...);
@@ -44,10 +42,9 @@ struct err_log {
         return * this << "}";
     }
 
-    
-    
-
 };
 
 #define debug(x) err_log() << "[ " << #x << " : " << x << " ]\n"
+
+
 
